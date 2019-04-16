@@ -1,0 +1,22 @@
+img {
+    display: block;
+    width: 100px;
+    margin-left: 70px;
+}
+
+button {
+    width: 120px;
+}
+
+#holder {
+    padding: 10px;
+    max-width: 245px;
+}
+
+p {
+    font-size: 14px;
+}
+
+#szoba {
+    padding: 10px;
+}
