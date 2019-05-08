@@ -1,0 +1,56 @@
+body {
+    background-color: #532827;
+    color:#532827;
+    margin: 0;
+    height: 100vh;
+    font-size: 100%;
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    display: flex;
+}
+
+#mainform {
+    width: 450px;
+    margin: auto;
+    background-image: url('papir.jpg');
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+input, select, button{
+    font-size: 1.1em;
+    box-sizing: border-box;
+    width: 160px;
+}
+
+button{
+    padding: 10px 0;
+    color: white;
+    background-color: #6c2726;
+}
+
+button:hover {
+    background-color: #532827;
+}
+
+#fizetendo {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 500px) {
+    body{
+        background-image: url('etterem.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    form{
+        box-shadow: 10px 10px 15px #333;
+        border-radius: 5px; 
+    }
+}
