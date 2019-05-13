@@ -1,0 +1,59 @@
+body {
+    background-color: #E6E0D4;
+    margin: 3vh 3vw;
+    color:#532827;
+    height: 94vh;
+    font-size: 100%;
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    display: flex;
+}
+
+#mainform {
+    width: 400px;
+    height: 430px;
+    margin: auto;
+    background-image: url('papir.jpg');
+    text-align: center;
+    vertical-align: top;
+}
+
+h1 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+input, select, button{
+    font-size: 1.1em;
+    box-sizing: border-box;
+    width: 160px;
+}
+
+button{
+    padding: 10px 0;
+    color: white;
+    background-color: #6c2726;
+}
+
+button:hover {
+    background-color: #532827;
+}
+
+#kiiras {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        background-image: url('hatter.jpg');
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    #mainform {
+        margin: 0;
+        box-shadow: 10px 10px 15px #333;
+        border-radius: 5px; 
+    }
+}
