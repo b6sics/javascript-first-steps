@@ -1,0 +1,38 @@
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 8vh;
+    color:white;
+    height: 84vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#stopper {
+    margin: 0;
+    padding: 0;
+    font-size: 8vw;
+}
+
+button {
+    border: 0;
+    padding: 15px 0;
+    width: 25vw;
+    margin: 1vw;
+    font-size: 4vw;
+    background-color: #d7a04e;
+    border-radius: 5px; 
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background-image: url('tree.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    button {
+        font-size: 3vw;
+    }
+}
+
